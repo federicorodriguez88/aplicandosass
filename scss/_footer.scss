@@ -1,0 +1,19 @@
+.footerindex{
+    background-color: $colorfooter;
+    padding-bottom: 30px;
+ 
+ .textofooter{
+    padding-top: 50px;
+    padding-left: 50px;
+    display:flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+ }
+ .logosfooter{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 100px;
+ 
+}
+}

@@ -1,0 +1,47 @@
+.navbar{
+    margin: 0px;
+    left: 0px;
+    padding-top: 0px;
+    right: 8px;
+    padding-bottom: 0px;
+
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link{
+   color: #ffffff;
+}
+
+.logo{
+   
+   width: 100px;
+   height: 150px;
+   animation: Animation 2s linear infinite;
+}
+
+.container-fluid{
+    background-color: $colorheader;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+ }
+
+@keyframes Animation {
+
+   0%{
+        box-shadow: 0 0 0 0 rgb(255, 255, 255);
+   }
+
+   30%{
+       box-shadow: 0 0 0 10px rgb(255, 255, 255);
+   }
+
+   65%{
+       box-shadow: 0 0 0 6px rgb(255, 255, 255);
+   }
+
+   100%{
+       box-shadow: 0 0 0 0 rgb(255, 255, 255);
+   }
+}

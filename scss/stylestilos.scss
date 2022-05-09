@@ -1,0 +1,270 @@
+$colorheader: #012a4a;
+$colorfooter: #468faf;
+
+
+
+/* INDEX */
+.headerindex{
+
+   @import "navegadores";
+
+}
+
+
+/* MAIN INDEX */
+
+.mainindex{
+   background-color: #014f86;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   align-items: center;
+  padding-top: 50px;
+  right: 8px;
+  left: 8px;
+  padding-bottom: 250px;
+  
+h3{
+   font-size: large;}
+
+.somosindex{
+   
+   padding-left: 50px;
+   font-family: Georgia, 'Times New Roman', Times, serif;color: #ffffff; font-size: larger;
+}
+.imagenindex img{
+   padding-left: 200px;
+   width: 600px;
+   height: 200px;
+}
+
+.imagenindex2 img{
+   padding-top: 30px;
+   padding-left: 80px;
+   width: 600px;
+   height: 200px;
+}
+
+.espesoresdisponibles{
+
+   font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff; font-size:large;
+   width: 500px ;
+   height: 300px;
+   padding-left: 200px;
+   padding-top: 150px;
+   
+}
+
+.encontramos{
+
+   font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+   width: 500px ;
+   height: 500px;
+   padding: 70px;
+   padding-top: 200px;
+
+
+
+
+}
+
+
+.consultas{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    width: 500px ;
+    height: 500px;
+    padding: 60px;
+   
+    
+ }
+
+}
+
+/* FOOTER */
+
+@import "footer";
+
+/* CATALOGO DE PANELES */
+
+/* HEADER-NAV PANELES */
+
+.headerpaneles{
+@import "navegadores";
+
+}
+
+/* MENU PANELES */
+
+.menupaneles{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #014f86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+
+.paneles1{
+    width: 550px;
+    height: 400px;
+    background-size: contain;
+    } 
+    
+    .paneles2{
+        width: 550px;
+        height: 400px;
+    }
+    
+    .paneles3{
+        width: 550px;
+        height: 400px;
+    }
+    
+    .paneles4{
+        width: 550px;
+        height: 400px;
+    }
+   
+    .carousel-control-next{
+        position:absolute;
+        top:350px;
+        bottom: 100px;
+    }
+    .carousel-control-prev{
+        position:absolute;
+        top:350px;
+        bottom: 100px;
+    }
+}
+
+
+/* FOOTER */
+
+
+@import "footer";
+
+/* CATALOGO DE CUADROS */
+
+/* HEADER-NAV CUADROS */
+
+@import "navegadores";
+
+/* MAIN CUADROS */
+
+.menucuadros{
+
+padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #014f86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+
+.paneles1{
+    width: 550px;
+    height: 400px;
+    
+}
+.paneles2{
+    width: 550px;
+    height: 400px;
+    
+}
+.paneles3{
+    width: 550px;
+    height: 400px;
+    
+}
+.paneles4{
+    width: 550px;
+    height: 400px;
+    
+}
+.carousel-control-next{
+    position:absolute;
+    top:350px;
+    bottom: 100px;
+}
+.carousel-control-prev{
+    position:absolute;
+    top:350px;
+    bottom: 100px;
+}
+
+ }
+
+
+
+/* FOOTER */
+
+@import "footer";
+
+
+/* TRABAJA CON NOSOTROS */
+
+/* HEADER-NAV TRABAJA CON NOSOTROS */
+
+@import "navegadores";
+
+/* MENU TRABAJA CON NOSOTROS */
+
+
+.maintrabaja{
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    background-color: #014f86;
+    display: grid;
+    grid-template-areas: 
+    "datostrabaja form" "sectortrabaja form"
+    ;
+    align-items: center;
+
+  .datostrabaja{
+    grid-area: "datostrabaja form";
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    padding-left: 100px;
+   
+    padding-right: 50px;
+}  
+
+.sectortrabaja{
+    grid-area: "sectortrabaja form";
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    padding-left: 150px;
+
+}
+
+}
+
+
+/* FOOTER */
+
+@import "footer";
+
+
+
+/* NUESTROS CLIENTES */
+
+/* HEADER-NAV NUESTROS CLIENTES */
+
+.headerclientes{
+
+@import "navegadores";
+
+}
+
+/* MENU NUESTROS CLIENTES */
+
+.menucliente{
+   
+    padding-top: 50px;
+    padding-bottom: 0px;
+    right: 0px;
+    background-color: #014f86;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+    }
+
+   /* FOOTER */
+
+    @import "footer";
