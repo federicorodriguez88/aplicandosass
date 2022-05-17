@@ -3,17 +3,35 @@
     padding-bottom: 30px;
  
  .textofooter{
-    padding-top: 50px;
+    padding-top: 70px;
     padding-left: 50px;
-    display:flex;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
  }
+
  .logosfooter{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 50px;
-    padding-left: 100px;
- 
+   display: flex;
+   justify-content: space-around;
+   padding-top: 70px;
+   padding-left: 50px;
+   padding-right: 70px;
 }
+
+.listafooter{
+  
+   padding-top: 70px;}
+
+   .tel{
+      color: #ffffff;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: small;
+   }
+   .mail{
+      @extend .tel ;
+   }
+   
+   .hora{
+
+      @extend .tel ; 
+
+   }
 }
