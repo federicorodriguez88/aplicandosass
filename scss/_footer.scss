@@ -26,12 +26,16 @@
       font-size: small;
    }
    .mail{
-      @extend .tel ;
+      color: #ffffff;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: small;
    }
    
    .hora{
 
-      @extend .tel ; 
+      color: #ffffff;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: small;
 
    }
 }
