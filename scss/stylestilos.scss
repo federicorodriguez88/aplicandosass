@@ -623,8 +623,8 @@ $colorfooter: #468faf;
 
     }
 
-/* MEDIA QUERIES 580PX*/ 
-@media screen and(min-width:580px){
+/* MEDIA QUERIES 600PX*/ 
+@media screen and(min-width:600px){
 
 /* INDEX MOBILE */
 .navbar{
@@ -681,6 +681,7 @@ $colorfooter: #468faf;
    position: relative;
   overflow:hidden ;
   padding-bottom: 40px;
+  padding-left: 0px;
  }
  
    video{
@@ -730,9 +731,9 @@ $colorfooter: #468faf;
      }
   
     background-color: #ffffff; border-radius: 20px;
-    width: 280px;
-    height: 1250px;
-    margin-left: 20px;
+    width: 500px;
+    height: 800px;
+    margin-left: 50px;
     margin-top: 40px;
     padding-top: 40px;
     padding-left: 15px;
@@ -746,11 +747,13 @@ $colorfooter: #468faf;
      height: 200px;
      padding-top: 50px;
      margin-bottom: 80px;
+     padding-left: 25px;
  
  img{
-    width: 280px;
+    width: 500px;
     border-radius: 20px;
     margin-left: 25px;
+
     
  }
  }
@@ -758,12 +761,11 @@ $colorfooter: #468faf;
  
     font-family: Georgia, 'Times New Roman', Times, serif; color: #000000;
     background-color: #ffffff; border-radius: 20px;
-    width: 280px ;
     height: 250px;
     padding-left: 20px;
     padding-top: 30px;
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-left: 150px;
+    margin-top: 230px;
     bottom: 0px; 
  
     .tituloespesores{  
@@ -789,12 +791,12 @@ $colorfooter: #468faf;
      }
      font-family: Georgia, 'Times New Roman', Times, serif; color: #000000;
      background-color: #ffffff; border-radius: 20px;
-     width: 280px ;
+     width: 500px ;
      height: 620px;
      padding-left: 20px;
      padding-top: 30px;
      padding-bottom: 120px;
-     margin-left: 20px;
+     margin-left: 50px;
      margin-top: 40px;
     .texto{
     padding-top: 20px;
@@ -803,24 +805,25 @@ $colorfooter: #468faf;
   .encontramos{
     font-family: Georgia, 'Times New Roman', Times, serif; color: #000000; font-size: larger;text-decoration: underline;text-shadow: 0.7px 1.3px  black;
     background-color: #ffffff; border-radius: 20px;
-    width: 280px ;
+    width: 500px ;
     height: 470px;
     padding-left: 20px;
     padding-top: 30px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 40px;
  #tituloencontramos{
      padding-left: 10px;
  }
  .mapa{
-     margin-top: 30px;
-     margin-left: 0px;
+     margin-top: 40px;
+     margin-left: 80px;
      border: solid 3px black;
-     width: 250px;
+     width: 300px;
+     height: 310px;
     
  }
  .mapa1{
-    padding-right: 60px;
+    padding-right: 10px;
  }
  }
  
@@ -890,37 +893,42 @@ $colorfooter: #468faf;
         }
       
       background-color: #ffffff; border-radius: 20px; 
-      padding-left: 15px;
+      padding-left: 40px;
       padding-right: 20px;
+      padding-top: 20px;
       font-family: Georgia, 'Times New Roman', Times, serif;
-      margin-left: 20px;
+      margin-left: 70px;
       margin-bottom: 30px;
-      width: 280px;
-      height: 780px;
+      width: 450px;
+      height: 840px;
       h4{
-      font-size: larger;}
+      font-size:x-large;
+    font-weight: bolder;}
     }
     .listapaneles{ 
-        margin-left: 20px;
+        margin-left: 70px;
         margin-bottom: 50px;
         font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold;
+        font-size: x-large;
         background-color: #ffffff; border-radius: 20px;
-        width: 280px;
-        height: 500px;
+        width: 450px;
+        height: 650px;
         h3{
             text-decoration: underline; text-shadow: 0.7px 1.3px  black;
         }
-    
+      
     }
  
     .carousel-inner{
      margin-left: 30px ;}
      
     @mixin paneles{  
-        padding-left: 10px;
-        padding-right: 150px;
-        width: 400px;
-        height: 200px;}
+        padding-left: 0px;
+        padding-right: 15px;
+        width: 500px;
+        height: 300px;
+        margin-left: 25px}
+
 .paneles1{
     @include paneles; 
     } 
@@ -939,12 +947,12 @@ $colorfooter: #468faf;
    
     .carousel-control-next{
         position:absolute;
-        top:1680px;
+        top:1940px;
         bottom: 30px;
     }
     .carousel-control-prev{
         position:absolute;
-        top: 1680px;
+        top: 1940px;
         bottom: 30px;
     }
 }
@@ -1010,17 +1018,19 @@ $colorfooter: #468faf;
         align-items: center;
         border-color: black;
         padding-right: 100%;
+   
     .carousel-slide .pointer-events{
         margin-left: 250px;}
     .carousel-inner{
         position: relative;
         width: 100%;
         padding-left: 4px;
+        margin-left: 270px;
     }
     @mixin paneles{
         padding-left: 100px;
-        width: 400px;
-        height: 200px;
+        width: 500px;
+        height: 300px;
     }
     .paneles1{
         @include paneles; 
@@ -1036,17 +1046,19 @@ $colorfooter: #468faf;
     }
     .carousel-control-next{
         position:absolute;
-        top:70px;
-        bottom: 10px;
+        height: 60px;
+        top:400px;
     }
     .carousel-control-prev{
         position: absolute;
-        top:70px;
-        bottom: 10px;
+        height: 60px;
+        top:400px;
     }
-    
+     
      }
-
+.navbar-toggler{
+        margin-right: 50px;
+    }
 
 /* TRABAJA CON NOSOTROS MOBILE */
 .navbar{
@@ -1104,11 +1116,11 @@ $colorfooter: #468faf;
     padding-bottom: 50px;
     background-color: #014f86;
     align-items: center;
-
+    padding-left: 20px;
   .datostrabaja{
   
     font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
-    padding-left: 50px;
+    padding-left: 150px;
     padding-bottom: 30px;
 }  
 
@@ -1156,6 +1168,7 @@ $colorfooter: #468faf;
         padding-bottom: 20px;
      
      }
+     
     
     @keyframes Animation {
     
@@ -1180,7 +1193,7 @@ $colorfooter: #468faf;
    
     
     /* MENU NUESTROS CLIENTES */
-    @media screen and(max-width:580px){
+   
         
     
     .menucliente{
@@ -1190,27 +1203,17 @@ $colorfooter: #468faf;
         right: 0px;
         background-color: #014f86;
         font-family:Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    
 
-    .cliente1{
-        width: 300px;
-        margin-right: 100px;
-        width: 500px;
-    }
-    .cliente2{
-        width: 300px;
-        margin-right: 100px;
-        width: 500px;
+    
     }
     .container{
         padding-bottom: 50px;
        
     }
-    .col{
-        padding-bottom: 30px;
-       
-
-    }
-     }}
+   
+    
+     
     
        /* FOOTER */
     
@@ -1267,7 +1270,7 @@ $colorfooter: #468faf;
 
 /* AQUI COMIENZAN LOS MEDIA QUERIES */
 
-@media screen and(min-width:768px) {
+@media screen and(min-width:1024px) {
 
 /* INDEX */
 .headerindex{
@@ -1297,7 +1300,7 @@ $colorfooter: #468faf;
 .titulovideo{
     width: 100%;
     height: 100%;
-    top:250px;
+    top:150px;
     right: 0;
     position:absolute;
     text-align: center;
@@ -1341,9 +1344,8 @@ h1::after{
     }
    grid-column: 1 / 2;
    background-color: #ffffff; border-radius: 20px;
-   width: 600px;
-   height: 550px;
-   margin-left: 30px;
+   width: 400px;
+   height: 650px;
    margin-top: 40px;
    padding-top: 40px;
    padding-left: 30px;
@@ -1354,13 +1356,13 @@ h1::after{
 
 .imagenindex2 {
     grid-area: 1 / 2 / 3 / 3;
-    width: 650px;
-    height: 900px;
-    padding-top: 85px;
+    width: 420px;
+    height: 600px;
+    padding-top: 40px;
 
 img{
-   width: 600px;
-   height: 850px;
+   width: 450px;
+   height: 600px;
    border-radius: 20px;
    
 }
@@ -1369,11 +1371,11 @@ img{
 
    font-family: Georgia, 'Times New Roman', Times, serif; color: #000000;
    background-color: #ffffff; border-radius: 20px;
-   width: 600px ;
+   width: 700px ;
    height: 250px;
    padding-left: 30px;
    padding-top: 40px;
-   margin-left: 30px;
+   margin-left: 200px;
    margin-top: 160px;
    bottom: 0px; 
 
@@ -1398,12 +1400,12 @@ img{
     }
     font-family: Georgia, 'Times New Roman', Times, serif; color: #000000;
     background-color: #ffffff; border-radius: 20px;
-    width: 600px ;
+    width: 400px ;
     height: 600px;
     padding-left: 30px;
     padding-top: 40px;
     padding-bottom: 120px;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 160px;
    .texto{
        font-size:larger;
@@ -1412,10 +1414,10 @@ img{
  .encontramos{
    font-family: Georgia, 'Times New Roman', Times, serif; color: #000000; font-size: larger;text-decoration: underline;text-shadow: 0.7px 1.3px  black;
    background-color: #ffffff; border-radius: 20px;
-   width: 600px ;
+   width: 400px ;
    height: 500px;
    padding-left: 45px;
-   padding-top: 60px;
+   padding-top: 40px;
    margin-left: 30px;
    margin-top: 160px;
 #tituloencontramos{
@@ -1423,7 +1425,7 @@ img{
 }
 .mapa{
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 5px;
     border: solid 3px black;
     width: 310px;
 }
@@ -1464,21 +1466,22 @@ img{
       padding-left: 20px;
       padding-right: 20px;
       font-family: Georgia, 'Times New Roman', Times, serif;
-      margin-left: 20px;
+      margin-left: 50px;
       margin-bottom: 80px;
-      width: 600px;
-      height: 350px;
+      width: 500px;
+      height: 485px;
       h4{
       font-size: larger;}
     }
     .listapaneles{ 
         
-        margin-left: 150px;
+        margin-left: 80px;
         margin-bottom: 100px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         grid-column: 2 / 4;
         background-color: #ffffff; border-radius: 20px;
         width: 400px;
+        height: 750px;
         h3{
             text-decoration: underline; text-shadow: 0.7px 1.3px  black;
         }
@@ -1487,7 +1490,7 @@ img{
     
     .carousel-inner{
      width: 600px;
-     margin-left: 450px;
+     margin-left: 230px;
     }
     @mixin paneles{
         width: 550px;
@@ -1508,12 +1511,12 @@ img{
    
     .carousel-control-next{
         position:absolute;
-        top:1100px;
+        top: 1320px;
         bottom: 0px;
     }
     .carousel-control-prev{
         position:absolute;
-        top:1100px;
+        top: 1320px;
         bottom: 0px;
     }
 }
@@ -1541,7 +1544,14 @@ padding-top: 100px;
     justify-content: center;
     align-items: center;
     border-color: black;
-    padding-left: 600px ;
+    padding-right: 50px;
+.carousel-inner{
+    position: relative;
+    width: 600px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 80px;
+}
 
 @mixin paneles{
     width: 550px;
@@ -1616,6 +1626,8 @@ padding-top: 100px;
 @import "footer";
 
 
+@media screen and(max-width: 780px) {
+    
 
 /* NUESTROS CLIENTES */
 
@@ -1640,7 +1652,7 @@ padding-top: 100px;
     font-family:Georgia, 'Times New Roman', Times, serif; color: #ffffff;
 
     }}
-
+}
    /* FOOTER */
    .footerindex{
     background-color: $colorfooter;
